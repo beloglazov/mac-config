@@ -20,4 +20,6 @@ cd $(dirname $BASH_SOURCE)
 mkdir -p ~/.config/fish
 
 ln -sfbv `pwd`/home/.config/fish/path.fish ~/.config/fish
+ln -sfbv `pwd`/home/.Rprofile ~/
+ln -sfbv `pwd`/home/.gitconfig ~/
 

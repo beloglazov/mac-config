@@ -28,6 +28,8 @@ Then, run the following script to configure the system:
 ./install.sh
 ```
 
+Please update `.gitconfig` with your name! It has mine by default :)
+
 My fish shell configuration can be obtained from
 https://github.com/beloglazov/fish-config
 
