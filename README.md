@@ -22,13 +22,14 @@ git clone https://github.com/beloglazov/mac-config.git
 cd mac-config
 ```
 
-Then, run the following scripts to configure the system:
+Then, run the following script to configure the system:
 
 ```Bash
-./01-homebrew.sh  # install Homebrew and update its package list
-./02-fish.sh      # install fish and set it as the default shell
-./03-apps.sh      # install a few useful command line tools
+./install.sh
 ```
+
+My fish shell configuration can be obtained from
+https://github.com/beloglazov/fish-config
 
 My Vim configuration can be obtained from https://github.com/beloglazov/vimrc
 
