@@ -22,7 +22,8 @@ git clone https://github.com/beloglazov/mac-config.git
 cd mac-config
 ```
 
-Then, run the following script to configure the system:
+Then, run the following script to install Homebrew, useful command line tools,
+and configs:
 
 ```Bash
 ./install.sh
