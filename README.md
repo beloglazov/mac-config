@@ -39,6 +39,17 @@ My Vim configuration can be obtained from https://github.com/beloglazov/vimrc
 Reopen the shell and enjoy!
 
 
+## Disable font smoothing
+
+By default, OS X smoothes all fonts, which doesn't always make them look good
+(e.g., in Eclipse). To disable smoothing, run the following:
+
+```Bash
+defaults write -g AppleFontSmoothing -int 0
+defaults write -g AppleAntiAliasingThreshold -int 20
+```
+
+
 ## License
 
 The source code is released under the Apache 2.0 license.
