@@ -1,6 +1,6 @@
 #!/bin/bash
 
-export PATH=~/.cabal/bin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin/usr/local/sbin:$PATH
+export PATH=~/.cabal/bin:/usr/local/opt/coreutils/libexec/gnubin:/usr/local/bin:/usr/local/sbin:$PATH
 
 ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
