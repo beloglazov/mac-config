@@ -50,6 +50,18 @@ defaults write -g AppleAntiAliasingThreshold -int 20
 ```
 
 
+## Keyboard repeat rate
+
+To increase the keyboard repeat rate and disable the accent menu, run the
+following:
+
+```Bash
+defaults write -g ApplePressAndHoldEnabled -bool false
+defaults write -g InitialKeyRepeat -int 12
+defaults write -g KeyRepeat -int 2
+```
+
+
 ## License
 
 The source code is released under the Apache 2.0 license.
