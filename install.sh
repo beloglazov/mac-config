@@ -15,7 +15,9 @@ brew install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent \
 cabal update
 cabal install cabal-install
 cabal update
-cabal install ghc-mod stylish-haskell
+cabal install ghc-mod stylish-haskell hoogle pointfree
+
+hoogle data
 
 ranger --copy-config=scope
 
