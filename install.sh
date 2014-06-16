@@ -32,4 +32,5 @@ ln -sfbv `pwd`/home/.config/fish/path.fish ~/.config/fish
 ln -sfbv `pwd`/home/.Rprofile ~/
 ln -sfbv `pwd`/home/.ghci ~/
 ln -sfbv `pwd`/home/.gitconfig ~/
+ln -sfbv `pwd`/home/.psqlrc ~/
 
