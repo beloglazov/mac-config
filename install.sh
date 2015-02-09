@@ -10,7 +10,7 @@ brew tap homebrew/dupes
 
 brew install coreutils findutils gnu-tar gnu-sed gawk gnutls gnu-indent \
     gnu-getopt grep fish htop colorsvn lftp maven tree ranger colordiff ncdu \
-    fasd the_silver_searcher dtrx wget ctags vim cabal-install todo-txt
+    fasd the_silver_searcher dtrx wget ctags vim cabal-install todo-txt hr
 
 cabal update
 cabal install cabal-install
